@@ -82,7 +82,7 @@ module.exports = function(grunt) {
 
 		cssmin: {
 		  minify: {
-		    expand: true,
+		    expand: false,
 		    cwd: '<%= paths.tmp %>/css/',
 		    src: ['**/*.css', '!**/*.min.css'],
 		    dest: '<%= paths.tmp %>/css/'

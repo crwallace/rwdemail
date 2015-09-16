@@ -29,7 +29,7 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-s3": "~0.2.0-alpha.3",
     "grunt-text-replace": "~0.3.11",
-    "grunt-contrib-imagemin": "~0.6.1",
+    "grunt-contrib-imagemin": "~0.7.0",
     "grunt-contrib-sass": "~0.7.3",
     "grunt-ejs-render": "~0.2.5"
   }

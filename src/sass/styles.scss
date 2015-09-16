@@ -1,6 +1,47 @@
-$primary-color: silver;
+$primary-color: #eee;
+$dccc-blue: #104a92;
+$alert: red;
 
+$yellow: yellow;
+
+p{
+	font-size:1.25em;
+}
+
+a{
+	font-size: 1.45em;
+	color: $dccc-blue;
+	font-weight:bold;
+	text-decoration: underline;
+}
 
 table.body {
 	background: $primary-color;
+}
+
+.body-content{
+	background-color: white;
+	border-radius: 10px;
+}
+
+.headline{
+	color: $dccc-blue;
+	font-weight:bold;
+}
+
+.hl-yellow{
+	font-weight: bold;
+	background-color: $yellow;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.medium-button{
+	margin: 0.5em 0;
+}
+
+.wrapper{
+	padding: 15px;
 }
